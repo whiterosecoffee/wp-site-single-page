@@ -1,0 +1,145 @@
+html{font:12px/15px Arial,sans-serif; }
+.content{margin:0 auto;} .horPadding{padding-left:.5rem; padding-right:.5rem;} .contentPadding{padding:2.5rem;} .wideContent{display:none;}
+.darkSection{background-color:#1a649d; color:white;} .mediumSection{background-color:#e9e9e9;}  .lightSection{color:#1d1c1c; }
+a {color:#0068B3;}
+p {max-width:75%;margin:0 auto 1rem;}
+h1{text-transform:uppercase; margin:0 0 .75rem;	font-weight:normal; font-size:3.25rem;} 
+h1:first-child{margin-top:0; }
+h2{font-size:1.3rem;}
+h3{font-size:1.15rem;}
+iframe{border-top:2px solid grey; border-bottom:2px solid grey;}
+img.ilb{width:48%;margin:0 1% 1% 0;}	
+	div#wpdm_file_1 .btn_outer{float:none; margin:0 auto;}
+	div#accordion,div.whistles-tabs-wrap ul{max-width:50%; margin:0 auto!important; } .ui-accordion-content{text-align:justify;}
+	div#slider{max-width:100%!important; margin:1rem  auto;} div.nivo-caption p{max-width:50%; margin:0 auto; text-align:center;}
+	div.whistles-tabs-wrap{padding:1.5rem!important; } li.whistle-title a{color:#1a649d!important;}div.whistles-tabs-wrap h4{margin-top:0;}
+	ul.whistles-tabs-nav, ul.whistles-tabs-nav li{margin:0!important; padding:0!important;}
+header.wrap{position: relative; z-index: 99999;}
+header.content{}
+	nav#nav{}
+ul#menu-main li a{padding: 1.25rem .75rem; color:white; text-transform:uppercase;}
+div#page {}
+div#main {}
+div#content{/* background-color:white; */color:rgba(90,90,90,.9);}
+
+div#content > section{position:relative; text-align:center; padding-top:55px;}	
+	section#home{margin-top:96px!important; padding-top:0!important;}	
+		section#home h1{
+			position:absolute; left:50%; top:50%; transform: translate(-50%, -75%)transform: translate(-50%, -65%);
+			color:white; font-size:6.25rem;line-height:.85;letter-spacing:0;  
+			text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.75);
+			}	
+		section#home p{
+			width:90%; 
+			position:absolute; left:50%; top:50%; transform: translate(-50%, 45%);
+			padding:1.25rem;    
+			font-weight:bold; color:white; text-align:center; 
+			background-color:rgba(90,90,90,.65);text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.75);
+		}	
+	section#accomodations h1{}
+	section#amenities{}	
+	section#gallery{border-bottom:2px solid grey;}	
+	section#aboutUs{}	
+		dsection#aboutUs h1{}	
+	section#activities{}	
+	section#guestBook{}	
+	section#policies{}	
+	section#contactUs{}	
+	
+
+
+
+		img#activities,img#accomodations, img#contact{display:block; margin:0 auto;}
+/*********** FOOTER ***********/
+footer.wrap{ background-color:#101010;}
+footer.content {}
+	footer.content h2 {text-align:center; font-size:.8rem; color:#a5a5a5;}
+
+footer.content ul#footer-menu {margin-top:15px; text-align:center;}
+		footer.content ul#footer-menu > li {display:inline-block;  border-right:1px solid #ccc;}
+			footer.content ul#footer-menu > li:last-child {border-right:none;}
+			footer.content ul#footer-menu > li > a{display:block; letter-spacing:0.05em; color:#cccccc; font-size:.85rem;  padding:0px 5px;}		
+				footer.content ul#footer-menu > li a:hover{text-decoration:underline;}	
+			footer.content ul#footer-menu > li ul {display:none;}/* second-level lists */
+			footer.content section{padding:1rem 0 0 0; text-align:center;}
+				footer.content section img{margin:.5rem 1rem;  display:inline-block; text-align:center;}
+			
+/*VERTICAL MENU*/
+@media screen and (max-width: 640px) {
+div#accordion, div.whistles-tabs-wrap ul {max-width: 100%;}
+div#content > section{padding-top:0px;}	
+	section#home{margin-top:0px!important; overflow:hidden;}	
+	#homeImg{max-width:250%; width:250%; margin-left:-75%; display:block;}
+	.comment-form-comment{max-width:100%;}
+		section#accomodations h1{font-size:2.5em;}
+		p{max-width:100%; text-align:justify;}
+		.whistles-tabs .whistles-tabs-nav li {float:left;}.whistles-tabs-wrap{clear:both;}
+	.whistle-title{width:50%;} .whistle-title a{width:100%;}
+}
+@media screen and (min-width: 635px) {
+	div#content > section#home h1{transform: translate(-50%, -65%);}	
+	div#content > section#home p{width:75%; transform: translate(-50%, 55%);}	
+}	
+/*HORIZONTAL MENU*/
+@media screen and (min-width: 751px) {
+html{font-size: 14px;} .content{max-width:80rem;} .wideContent{display:block;}
+body{}
+@font-face {
+font-family: 'mission_gothicregular';
+src: url('../fonts/missiongothic-regular-webfont.eot');
+src: url('../fonts/missiongothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	 url('../fonts/missiongothic-regular-webfont.woff') format('woff'),
+	 url('../fonts/missiongothic-regular-webfont.ttf') format('truetype'),
+	 url('../fonts/missiongothic-regular-webfont.svg#mission_gothicregular') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}h1,h3{font-family: 'mission_gothicregular', serif;} 
+	div#content > section#home h1{transform: translate(-50%, -65%);}	
+	div#content > section#home p{width:65%; transform: translate(-50%, 55%);}	
+header.wrap{width:100%;background-color:rgba(0,0,0,.75);position:fixed; top:0; left:0; width:100%; z-index:9999;}
+header.content{padding:1.5rem 0;}
+	div#content img.ilb{width:32%;}
+
+
+nav#nav{padding:0;}
+
+	ul#menu-main {text-align:center;}
+	ul#menu-main > li{display:inline-block;}
+	ul#menu-main li a{padding: .5rem }
+	ul#menu-main li li:hover{border-left:2px solid #267bbe;}
+	ul#menu-main ul.sub-menu{width:15rem; text-align: left; background-color:rgba(90,90,90,.85);}
+
+div#page{}
+div#content{}
+	div#content p {max-width:70%;}
+
+}
+/*HORIZONTAL MENU*/
+@media screen and (min-width: 851px) {
+html{font-size: 14.875px;}
+	div#content p {max-width:65%;}
+
+
+}
+@media (min-width: 980px) {
+html {font-size: 16px;}body{}
+	div#content > section#home p{width:60%;}	
+
+nav#nav{}
+	ul#menu-main li a{padding: .75rem;}
+
+	div#content > section{}	
+		div#content > section#home{}	
+	div#content img.ilb{width:18.5%;}
+
+div#content > section p {}	
+	div#content p {max-width:55%;}
+
+}
+@media screen and (min-width:1100px) {
+	html {font-size: 18px;}body{}
+
+	div#content > section#home h1{width:635px;transform: translate(-50%, -85%);}	
+	div#content > section#home p{width:635px;transform: translate(-50%, 45%);}	
+}	

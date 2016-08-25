@@ -1,0 +1,12 @@
+/*
+Theme Name: Bayshore Cottages
+Theme URI: http://discoverwebdev.ca/bayshorecottages
+Description: Custom Development for Christine Azavedo: Bayshore Cottages 186 Old Mill Road, Wiarton, ON, Canada NOH 2TO 519-534-5508 
+Author: Nathan Bowman 
+Version:  1.0
+*/
+
+@import url("css/reset.css");
+@import url("css/bayshorecottages.css");  
+@import url("css/responsive-nav.css");  
+
